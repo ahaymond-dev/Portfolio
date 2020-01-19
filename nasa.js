@@ -6,9 +6,10 @@ $.ajax({
     method: "GET"
   }).then(function(response) {
         $(document).ajaxSuccess(function() {
-            $(".container").css("backgroundImage", "url(" + response.url + ")");
-            $(".container").css({height: '700px' });
-            $(".container").css({width: "100%"});
+            $(".row").css("backgroundImage", "url(" + response.url + ")");
+            $(".row").css({height: '700px' });
+            $(".row").css({width: "100%"});
+            $(".row").css(position, "absolute");
             // $(".container").css({height: "auto"});   
             
         });
