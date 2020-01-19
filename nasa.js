@@ -9,7 +9,8 @@ $.ajax({
             $(".row").css("backgroundImage", "url(" + response.url + ")");
             $(".row").css({height: '700px' });
             $(".row").css({width: "100%"});
-            $(".row").css(position, "absolute");
+            // $(".row").css("position", "absolute");
+            // $(".row").css("backgroundRepeat", "repeat");
             // $(".container").css({height: "auto"});   
             
         });
