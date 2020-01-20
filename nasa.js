@@ -26,10 +26,10 @@ $.ajax({
         });
 
   });
-  $('html, body').css({
-    overflow: 'hidden',
-    height: '100%'
-});
+//   $('html, body').css({
+//     overflow: 'hidden',
+//     height: '100%'
+// });
 });
 
 
