@@ -11,7 +11,7 @@ $.ajax({
             $(".container").css("backgroundImage", "url(" + response.url + ")");
             $(".container").css({height: '100%' });
             $(".container").css({width: "100%"});
-            $(".container").css("position", "absolute");
+            // $(".container").css("position", "absolute");
             $(".container").css("backgroundRepeat", "repeat");
             // $(".row").css("backgroundSize", "auto");
             $(".container").css({height: "auto"}); 
@@ -22,7 +22,7 @@ $.ajax({
             $(".container").css("backgroundImage", "url(milky_way.jpg)");
             $(".container").css({height: "1000px" });
             $(".container").css({width: "100%"});
-            // $(".row").css("position", "absolute");
+            // $(".container").css("position", "absolute");
             $(".container").css("backgroundRepeat", "repeat");
           }; 
             

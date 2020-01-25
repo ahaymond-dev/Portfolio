@@ -38,8 +38,9 @@ h2 {
 p {
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
-    margin: 10px;
+    margin: 10px 5px 5px 5px;
     padding-bottom: 5px;
+    /* padding: 2px 2px 2px 2px; */
 }
 hr {
     border: 1px solid black;
@@ -97,4 +98,12 @@ a:link {
   /* selected link */
   a:active {
     color: black;
+  }
+
+  .pics {
+      opacity: 1;
+  }
+
+  #image {
+      margin: 3px 3px 3px 3px;
   }
